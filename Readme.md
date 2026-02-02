@@ -18,8 +18,6 @@ An ultra-fast, offline Alfred workflow for searching the latest version of the W
 2. Download the `.alfredworkflowfile`.
 3. Double-click the file to import it into Alfred.
 
-> Since this contains a compiled binary, you may need to right-click the workflow in Alfred and select "Open in Finder" to manually allow the binary to run if Gatekeeper blocks it.
-
 #### Option 2: From Source
 
 If you want to build the workflow yourself, you'll need Go 1.25+ installed.
@@ -42,7 +40,17 @@ open package
 
 4. Double-click `alfred-wcag-search.alfredworkflow` to install.
 
-### License
+### Troubleshooting
 
+Since this is a compiled binary, you might run into issues with Apple Gatekeeper
+complaining it cannot verify if it's malware. You can fix this with:
+
+1. Right click and Open in Finder inside the Alfred Workflow.
+2. Copy the file `wcag-search`.
+3. Open Terminal and run: `xattr -d com.apple.quarantine <PASTE WHAT YOU
+   COPIED>`
+
+### License
+{}
 This project is licensed under the MIT License. WCAG data is sourced from the W3C.
 
