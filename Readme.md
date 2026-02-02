@@ -51,6 +51,6 @@ complaining it cannot verify if it's malware. You can fix this with:
    COPIED>`
 
 ### License
-{}
+
 This project is licensed under the MIT License. WCAG data is sourced from the W3C.
 
