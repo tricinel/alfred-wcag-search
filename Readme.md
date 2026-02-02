@@ -14,15 +14,15 @@ An ultra-fast, offline Alfred workflow for searching the latest version of the W
 
 #### Option 1: From the package folder (Recommended)
 
-1. Go to [packages](./package/alfred-wcag-search.alfredworkflow).
-2. Download the .alfredworkflow file.
+1. Go to the [package](./package) folder.
+2. Download the `.alfredworkflowfile`.
 3. Double-click the file to import it into Alfred.
 
 > Since this contains a compiled binary, you may need to right-click the workflow in Alfred and select "Open in Finder" to manually allow the binary to run if Gatekeeper blocks it.
 
 #### Option 2: From Source
 
-If you want to build the workflow yourself, you'll need Go 1.21+ installed.
+If you want to build the workflow yourself, you'll need Go 1.25+ installed.
 
 1. Clone the repository:
 ```sh
