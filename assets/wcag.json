@@ -1,0 +1,605 @@
+[
+  {
+    "id": "1.1.1",
+    "slug": "non-text-content",
+    "title": "Non-text Content",
+    "keywords": "text alternatives, alt text, description, accessibility, images",
+    "level": "A"
+  },
+  {
+    "id": "1.2.1",
+    "slug": "audio-only-and-video-only-prerecorded",
+    "title": "Audio-only and Video-only (Prerecorded)",
+    "keywords": "audio-only, video-only, transcripts, media, alternatives",
+    "level": "A"
+  },
+  {
+    "id": "1.2.2",
+    "slug": "captions-prerecorded",
+    "title": "Captions (Prerecorded)",
+    "keywords": "dialogue, deaf, media",
+    "level": "A"
+  },
+  {
+    "id": "1.2.3",
+    "slug": "audio-description-or-media-alternative-prerecorded",
+    "title": "Audio Description or Media Alternative (Prerecorded)",
+    "keywords": "video, visual information",
+    "level": "A"
+  },
+  {
+    "id": "1.2.4",
+    "slug": "captions-live",
+    "title": "Captions (Live)",
+    "keywords": "real-time, synchronized, deaf",
+    "level": "AA"
+  },
+  {
+    "id": "1.2.5",
+    "slug": "audio-description-prerecorded",
+    "title": "Audio Description (Prerecorded)",
+    "keywords": "video, visual, blind",
+    "level": "AA"
+  },
+  {
+    "id": "1.2.6",
+    "slug": "sign-language-prerecorded",
+    "title": "Sign Language (Prerecorded)",
+    "keywords": "interpretation, deaf, video",
+    "level": "AAA"
+  },
+  {
+    "id": "1.2.7",
+    "slug": "extended-audio-description-prerecorded",
+    "title": "Extended Audio Description (Prerecorded)",
+    "keywords": "pausing, video",
+    "level": "AAA"
+  },
+  {
+    "id": "1.2.8",
+    "slug": "media-alternative-prerecorded",
+    "title": "Media Alternative (Prerecorded)",
+    "keywords": "transcript, text description, synchronized",
+    "level": "AAA"
+  },
+  {
+    "id": "1.2.9",
+    "slug": "audio-only-live",
+    "title": "Audio-only (Live)",
+    "keywords": "audio, caption service, real-time, alternative",
+    "level": "AAA"
+  },
+  {
+    "id": "1.3.1",
+    "slug": "info-and-relationships",
+    "title": "Info and Relationships",
+    "keywords": "semantic, programmatic, markup, structure",
+    "level": "A"
+  },
+  {
+    "id": "1.3.2",
+    "slug": "meaningful-sequence",
+    "title": "Meaningful Sequence",
+    "keywords": "reading order, content order, DOM, programmatic",
+    "level": "A"
+  },
+  {
+    "id": "1.3.3",
+    "slug": "sensory-characteristics",
+    "title": "Sensory Characteristics",
+    "keywords": "shape, color, location, instructions",
+    "level": "A"
+  },
+  {
+    "id": "1.3.4",
+    "slug": "orientation",
+    "title": "Orientation",
+    "keywords": "portrait, landscape, responsive, screen",
+    "level": "AA"
+  },
+  {
+    "id": "1.3.5",
+    "slug": "identify-input-purpose",
+    "title": "Identify Input Purpose",
+    "keywords": "autocomplete, form, fields, semantics",
+    "level": "AA"
+  },
+  {
+    "id": "1.3.6",
+    "slug": "identify-purpose",
+    "title": "Identify Purpose",
+    "keywords": "components, markup, regions, identification",
+    "level": "AAA"
+  },
+  {
+    "id": "1.4.1",
+    "slug": "use-of-color",
+    "title": "Use of Color",
+    "keywords": "visual, information, distinction",
+    "level": "A"
+  },
+  {
+    "id": "1.4.2",
+    "slug": "audio-control",
+    "title": "Audio Control",
+    "keywords": "autoplay, volume, screen reader",
+    "level": "A"
+  },
+  {
+    "id": "1.4.3",
+    "slug": "contrast-minimum",
+    "title": "Contrast (Minimum)",
+    "keywords": "4.5:1, text, readability",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.4",
+    "slug": "resize-text",
+    "title": "Resize Text",
+    "keywords": "zoom, 200%, reflow",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.5",
+    "slug": "images-of-text",
+    "title": "Images of Text",
+    "keywords": "visual effect, rendering, bitmap, readability",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.6",
+    "slug": "contrast-enhanced",
+    "title": "Contrast (Enhanced)",
+    "keywords": "7:1, AAA, readability",
+    "level": "AAA"
+  },
+  {
+    "id": "1.4.7",
+    "slug": "low-or-no-background-audio",
+    "title": "Low or No Background Audio",
+    "keywords": "volume, speech, foreground",
+    "level": "AAA"
+  },
+  {
+    "id": "1.4.8",
+    "slug": "visual-presentation",
+    "title": "Visual Presentation",
+    "keywords": "text spacing, line height, columns, justified",
+    "level": "AAA"
+  },
+  {
+    "id": "1.4.9",
+    "slug": "images-of-text-no-exception",
+    "title": "Images of Text (No Exception)",
+    "keywords": "AAA, decorative, authentication",
+    "level": "AAA"
+  },
+  {
+    "id": "1.4.10",
+    "slug": "reflow",
+    "title": "Reflow",
+    "keywords": "scrolling, responsive, single column, horizontal",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.11",
+    "slug": "non-text-contrast",
+    "title": "Non-text Contrast",
+    "keywords": "3:1, UI components, graphical, borders",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.12",
+    "slug": "text-spacing",
+    "title": "Text Spacing",
+    "keywords": "line height, paragraph",
+    "level": "AA"
+  },
+  {
+    "id": "1.4.13",
+    "slug": "content-on-hover-or-focus",
+    "title": "Content on Hover or Focus",
+    "keywords": "visible, dismissal",
+    "level": "AA"
+  },
+  {
+    "id": "2.1.1",
+    "slug": "keyboard",
+    "title": "Keyboard",
+    "keywords": "accessible, navigation, functionality, device",
+    "level": "A"
+  },
+  {
+    "id": "2.1.2",
+    "slug": "no-keyboard-trap",
+    "title": "No Keyboard Trap",
+    "keywords": "escape, focus, navigation, context",
+    "level": "A"
+  },
+  {
+    "id": "2.1.3",
+    "slug": "keyboard-no-exception",
+    "title": "Keyboard (No Exception)",
+    "keywords": "AAA, functionality, device",
+    "level": "AAA"
+  },
+  {
+    "id": "2.1.4",
+    "slug": "character-key-shortcuts",
+    "title": "Character Key Shortcuts",
+    "keywords": "letter keys, alternative, pause, disable",
+    "level": "A"
+  },
+  {
+    "id": "2.2.1",
+    "slug": "timing-adjustable",
+    "title": "Timing Adjustable",
+    "keywords": "user control, session, time limit",
+    "level": "A"
+  },
+  {
+    "id": "2.2.2",
+    "slug": "pause-stop-hide",
+    "title": "Pause, Stop, Hide",
+    "keywords": "blinking, scrolling, auto-updating",
+    "level": "A"
+  },
+  {
+    "id": "2.2.3",
+    "slug": "no-timing",
+    "title": "No Timing",
+    "keywords": "AAA, time limits, session, content",
+    "level": "AAA"
+  },
+  {
+    "id": "2.2.4",
+    "slug": "interruptions",
+    "title": "Interruptions",
+    "keywords": "urgent, user request, postpone, notifications",
+    "level": "AAA"
+  },
+  {
+    "id": "2.2.5",
+    "slug": "re-authenticating",
+    "title": "Re-authenticating",
+    "keywords": "re-authenticating, session, user data, authentication, lost data",
+    "level": "AAA"
+  },
+  {
+    "id": "2.2.6",
+    "slug": "timeouts",
+    "title": "Timeouts",
+    "keywords": "notification, 30 seconds, session, AAA",
+    "level": "AAA"
+  },
+  {
+    "id": "2.3.1",
+    "slug": "three-flashes-or-below-threshold",
+    "title": "Three Flashes or Below Threshold",
+    "keywords": "seizures, photosensitive, epilepsy",
+    "level": "A"
+  },
+  {
+    "id": "2.3.2",
+    "slug": "three-flashes",
+    "title": "Three Flashes",
+    "keywords": "AAA, seizure, photosensitive, animation",
+    "level": "AAA"
+  },
+  {
+    "id": "2.3.3",
+    "slug": "animation-from-interactions",
+    "title": "Animation from Interactions",
+    "keywords": "interaction, motion, distraction, vestibular",
+    "level": "AAA"
+  },
+  {
+    "id": "2.4.1",
+    "slug": "bypass-blocks",
+    "title": "Bypass Blocks",
+    "keywords": "skip links, main content, navigation, keyboard",
+    "level": "A"
+  },
+  {
+    "id": "2.4.2",
+    "slug": "page-titled",
+    "title": "Page Titled",
+    "keywords": "title element, browser tab, topic, context",
+    "level": "A"
+  },
+  {
+    "id": "2.4.3",
+    "slug": "focus-order",
+    "title": "Focus Order",
+    "keywords": "tabindex, sequence, meaningful, keyboard",
+    "level": "A"
+  },
+  {
+    "id": "2.4.4",
+    "slug": "link-purpose-in-context",
+    "title": "Link Purpose (In Context)",
+    "keywords": "descriptive, function, understandable",
+    "level": "A"
+  },
+  {
+    "id": "2.4.5",
+    "slug": "multiple-ways",
+    "title": "Multiple Ways",
+    "keywords": "navigation, search, sitemap, table of contents",
+    "level": "AA"
+  },
+  {
+    "id": "2.4.6",
+    "slug": "headings-and-labels",
+    "title": "Headings and Labels",
+    "keywords": "descriptive, topic, identify purpose",
+    "level": "AA"
+  },
+  {
+    "id": "2.4.7",
+    "slug": "focus-visible",
+    "title": "Focus Visible",
+    "keywords": "keyboard, indicator, outline, perceivable",
+    "level": "AA"
+  },
+  {
+    "id": "2.4.8",
+    "slug": "location",
+    "title": "Location",
+    "keywords": "breadcrumbs, navigation, orientation, related links",
+    "level": "AAA"
+  },
+  {
+    "id": "2.4.9",
+    "slug": "link-purpose-link-only",
+    "title": "Link Purpose (Link Only)",
+    "keywords": "descriptive, AAA, standalone",
+    "level": "AAA"
+  },
+  {
+    "id": "2.4.10",
+    "slug": "section-headings",
+    "title": "Section Headings",
+    "keywords": "organize, structure, accessibility tree, content",
+    "level": "AAA"
+  },
+  {
+    "id": "2.4.11",
+    "slug": "focus-not-obscured-minimum",
+    "title": "Focus Not Obscured (Minimum)",
+    "keywords": "keyboard, visible, 3 pixels",
+    "level": "AA"
+  },
+  {
+    "id": "2.4.12",
+    "slug": "focus-not-obscured-enhanced",
+    "title": "Focus Not Obscured (Enhanced)",
+    "keywords": "AAA, visible",
+    "level": "AAA"
+  },
+  {
+    "id": "2.4.13",
+    "slug": "focus-appearance",
+    "title": "Focus Appearance",
+    "keywords": "AAA, contrast, keyboard, visible",
+    "level": "AAA"
+  },
+  {
+    "id": "2.5.1",
+    "slug": "pointer-gestures",
+    "title": "Pointer Gestures",
+    "keywords": "multipoint, path-based, alternative, swipe",
+    "level": "A"
+  },
+  {
+    "id": "2.5.2",
+    "slug": "pointer-cancellation",
+    "title": "Pointer Cancellation",
+    "keywords": "down-event, dragging, alternative, gesture",
+    "level": "A"
+  },
+  {
+    "id": "2.5.3",
+    "slug": "label-in-name",
+    "title": "Label in Name",
+    "keywords": "consistency, voice",
+    "level": "A"
+  },
+  {
+    "id": "2.5.4",
+    "slug": "motion-actuation",
+    "title": "Motion Actuation",
+    "keywords": "gyroscope, accelerometer, alternative, keyboard",
+    "level": "A"
+  },
+  {
+    "id": "2.5.5",
+    "slug": "target-size-minimum",
+    "title": "Target Size (Minimum)",
+    "keywords": "44x44, button",
+    "level": "AA"
+  },
+  {
+    "id": "2.5.6",
+    "slug": "concurrent-input-mechanisms",
+    "title": "Concurrent Input Mechanisms",
+    "keywords": "multimodal, activation, alternative, interaction",
+    "level": "AAA"
+  },
+  {
+    "id": "2.5.7",
+    "slug": "dragging-movements",
+    "title": "Dragging Movements",
+    "keywords": "alternative, pointer, AAA",
+    "level": "AAA"
+  },
+  {
+    "id": "2.5.8",
+    "slug": "target-size-minimum-enhanced",
+    "title": "Target Size (Minimum) Enhanced",
+    "keywords": "AAA, spacing, button",
+    "level": "AAA"
+  },
+  {
+    "id": "3.1.1",
+    "slug": "language-of-page",
+    "title": "Language of Page",
+    "keywords": "html lang, default, content",
+    "level": "A"
+  },
+  {
+    "id": "3.1.2",
+    "slug": "language-of-parts",
+    "title": "Language of Parts",
+    "keywords": "markup, span lang, content",
+    "level": "AA"
+  },
+  {
+    "id": "3.1.3",
+    "slug": "unusual-words",
+    "title": "Unusual Words",
+    "keywords": "idiomatic, jargon, pronunciation, footnote",
+    "level": "AAA"
+  },
+  {
+    "id": "3.1.4",
+    "slug": "abbreviations",
+    "title": "Abbreviations",
+    "keywords": "expansion, first mention, definition, acronym",
+    "level": "AAA"
+  },
+  {
+    "id": "3.1.5",
+    "slug": "reading-level",
+    "title": "Reading Level",
+    "keywords": "AAA, comprehension, understandable",
+    "level": "AAA"
+  },
+  {
+    "id": "3.1.6",
+    "slug": "pronunciation",
+    "title": "Pronunciation",
+    "keywords": "speakable, ambiguous, text, AAA",
+    "level": "AAA"
+  },
+  {
+    "id": "3.2.1",
+    "slug": "on-focus",
+    "title": "On Focus",
+    "keywords": "change context, unexpected, predictable, form",
+    "level": "A"
+  },
+  {
+    "id": "3.2.2",
+    "slug": "on-input",
+    "title": "On Input",
+    "keywords": "change, context, automatic, predictable",
+    "level": "A"
+  },
+  {
+    "id": "3.2.3",
+    "slug": "consistent-navigation",
+    "title": "Consistent Navigation",
+    "keywords": "pattern, location, usability",
+    "level": "AA"
+  },
+  {
+    "id": "3.2.4",
+    "slug": "consistent-identification",
+    "title": "Consistent Identification",
+    "keywords": "components, recognizable, pattern",
+    "level": "AA"
+  },
+  {
+    "id": "3.2.5",
+    "slug": "change-on-request",
+    "title": "Change on Request",
+    "keywords": "context, user initiated, notification, predictable",
+    "level": "AAA"
+  },
+  {
+    "id": "3.3.1",
+    "slug": "error-identification",
+    "title": "Error Identification",
+    "keywords": "message, suggestion, label, form",
+    "level": "A"
+  },
+  {
+    "id": "3.3.2",
+    "slug": "labels-or-instructions",
+    "title": "Labels or Instructions",
+    "keywords": "form, required, format",
+    "level": "A"
+  },
+  {
+    "id": "3.3.3",
+    "slug": "error-suggestion",
+    "title": "Error Suggestion",
+    "keywords": "correction, recommendation, mistake, recovery",
+    "level": "AA"
+  },
+  {
+    "id": "3.3.4",
+    "slug": "error-prevention-legal-financial-data",
+    "title": "Error Prevention (Legal, Financial, Data)",
+    "keywords": "confirmation, reversible",
+    "level": "AA"
+  },
+  {
+    "id": "3.3.5",
+    "slug": "help",
+    "title": "Help",
+    "keywords": "context sensitive, instruction, example, support",
+    "level": "AAA"
+  },
+  {
+    "id": "3.3.6",
+    "slug": "error-prevention-all",
+    "title": "Error Prevention (All)",
+    "keywords": "AAA, submission, form",
+    "level": "AAA"
+  },
+  {
+    "id": "3.3.7",
+    "slug": "redundant-entry",
+    "title": "Redundant Entry",
+    "keywords": "data, repeat, save, AAA",
+    "level": "A"
+  },
+  {
+    "id": "3.3.8",
+    "slug": "accessible-authentication-minimum",
+    "title": "Accessible Authentication (Minimum)",
+    "keywords": "password, CAPTCHA, alternative",
+    "level": "AA"
+  },
+  {
+    "id": "3.3.9",
+    "slug": "accessible-authentication-enhanced",
+    "title": "Accessible Authentication (Enhanced)",
+    "keywords": "AAA, cognitive",
+    "level": "AAA"
+  },
+  {
+    "id": "4.1.1",
+    "slug": "parsing",
+    "title": "Parsing",
+    "keywords": "syntax, well-formed, markup, code",
+    "level": "A"
+  },
+  {
+    "id": "4.1.2",
+    "slug": "name-role-value",
+    "title": "Name, Role, Value",
+    "keywords": "semantic, state",
+    "level": "A"
+  },
+  {
+    "id": "4.1.3",
+    "slug": "status-messages",
+    "title": "Status Messages",
+    "keywords": "live region, ARIA, dynamic, announce",
+    "level": "AA"
+  }
+]
+
