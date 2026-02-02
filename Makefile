@@ -4,12 +4,13 @@ SOURCE_FILE=./main.go
 
 GOLINT := $(shell which golangci-lint)
 
-VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo "dev")
-LDFLAGS=-X 'main.Version=$(VERSION)' -s -w
-
 ASSETS_DIR=./assets
 DIST_DIR=./dist
 PKG_DIR=./package
+
+CURRENT_VERSION := $(shell [ -f $(DIST_DIR)/info.plist ] && plutil -extract version raw $(DIST_DIR)/info.plist || echo "dev")
+VERSION ?= dev
+LDFLAGS=-X 'main.Version=$(VERSION)' -s -w
 
 .PHONY: build assemble package
 .PHONY: clean
@@ -17,6 +18,12 @@ PKG_DIR=./package
 
 # Build universal binary for Apple Silicon and Intel
 build: clean prebuild
+	@if [ "$(VERSION)" = "dev" ]; then \
+		echo "❌ Error: VERSION is not set."; \
+		echo "Usage: VERSION=x.x.x make package"; \
+		echo "Current version in $(DIST_DIR): $(CURRENT_VERSION)"; \
+		exit 1; \
+	fi
 	@echo "Building version $(VERSION)..."
 	@mkdir -p $(DIST_DIR)
 	GOOS=darwin GOARCH=arm64 go build -ldflags="$(LDFLAGS)" -o $(DIST_DIR)/$(BINARY_NAME)-arm64 $(SOURCE_FILE)
