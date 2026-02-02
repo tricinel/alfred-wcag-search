@@ -30,7 +30,7 @@ assemble: build
 	cp $(ASSETS_DIR)/info.plist $(DIST_DIR)/
 	cp $(ASSETS_DIR)/*.png $(DIST_DIR)/
 	@plutil -replace version -string "$(VERSION)" $(DIST_DIR)/info.plist || (echo "Failed to set version"; exit 1)
-	@plutil -replace readme -string "$$(cat README.md)" $(DIST_DIR)/info.plist || (echo "Failed to set README. Check your file"; exit 1)
+	@plutil -replace readme -string "$$(cat alfred-description.md)" $(DIST_DIR)/info.plist || (echo "Failed to set alfred-description. Check your file"; exit 1)
 	chmod +x $(DIST_DIR)/$(BINARY_NAME)
 
 # Create the final .alfredworkflow file
